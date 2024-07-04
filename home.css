@@ -19,6 +19,9 @@
     background-color: #2c1762;
     position: fixed;
 }
+.logo{
+    width: 200px;
+}
 .navbar{
     width: 96%;
     margin-left: 25px;
@@ -29,6 +32,7 @@
     background-color: #2c1762;
     position: fixed;
     border-bottom: 1px solid white;
+    z-index: 30;
 }
 .navtitle{
     /* background-color: red; */
@@ -388,6 +392,7 @@
     width: 30%;
     height: 45%;
     position: relative;
+    z-index: 10;
     /* background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -621,11 +626,117 @@
     justify-content: center;
     gap: 10px;
 }
+.ten{
+    width: 100%;
+    height: 700px;
+    padding-top: 7%;
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: whitesmoke;
+}
+.people{
+    width: 90%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.item{
+    background-color:white;
+    width: 100%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-evenly;
+}
+.item>img{
+    width: 60px;
+}
+.testify>h4{
+    font-size: 20px;
+    color: rgb(63, 62, 62);
+}
+.testify{
+    width: 40%;
+    display: flex;
+    height: 15%;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.persona{
+    width: 50px;
+    border-radius: 50px;
+}
+.itemtext{
+    border-left: grey solid 1px;
+    width: 80%;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #5a617c;
+}
+.text10{
+    width: 40%;
+    height: 20%;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    color: #5a617c;
+    /* background-color: red; */
+}
+.contacts{
+    display: flex;
+    height: 80%;
+    width: 100%;
+
+}
+.rightarrow{
+    width: 5%;
+    height: 100%;
+    /* background-color: green; */
+    align-items: center;
+    display: flex;
+    font-size: 45px;
+    justify-content: end;
+}
+.leftarrow{
+    width: 5%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    color: rgb(75, 71, 71);
+    font-size: 25px;
+}
+.text10>h2{
+    font-size: 45px;
+    color: #2c1762;
+}
+.text10>p{
+    font-size: 20px;
+}
 .eleven{
     width: 100%;
     height: 500px;
     /* background-color: yellow; */
     display: flex;
+}
+.Ajo{
+    width: 200px;
+    rotate: 10%;
+}
+.CBN{
+    width: 150px;
 }
 .text11{
     font-size: 25px;
@@ -705,4 +816,92 @@
     color: white;
     font-size: 20px;
     margin-top: 25px;
+}
+.footer{
+    width: 100%;
+    height: 550px;
+    padding-top: 5%;
+    background-color: #2c1762;
+    display: flex;
+    flex-direction: column;
+}
+.upfooter{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    /* background-color: yellow; */
+}
+.leftfooter{
+    width: 28%;
+    height: 100%;
+    padding-left: 10%;
+}
+.rightfooter{
+    width: 72%;
+    height: 100%;
+    display: flex;
+}
+.sec{
+    width: 70%;
+    height: 15%;
+    border: solid 1px grey;
+    background-color: transparent;
+    color: rgb(153, 147, 147);
+    font-size: 17px;
+}
+.footeropts{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footeropts>h4{
+    color: #8664dd;
+}
+.footeropts>p{
+    font-size: 14px;
+}
+.midfooter{
+    width: 100%;
+    height: 20%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.downfooter{
+    width: 100%;
+    height: 15%;
+    /* background-color: blue; */
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 12px;
+}
+.app{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icon{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.apps{
+    width: 90px;
+    border: 1px;
+    border-style: outset;
+    border-radius: 5px;
+}
+.icons{
+    width: 20px;
+}
+.logo1{
+    width: 150px;
 }
