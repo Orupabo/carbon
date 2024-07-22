@@ -46,10 +46,19 @@
 }
 .navopts{
     display: flex;
-    width: 80%;
+    width: 75%;
     height: 100%;
     /* background-color: salmon; */
     justify-content: space-between;
+    /* float: right; */
+}
+.checkbut{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
 }
 .opts1{
     display: flex;
@@ -217,6 +226,7 @@
     justify-content: space-evenly;
     position: absolute;
     top: 250px;
+    box-shadow: -10px 10px 10px  #ff04751a;
     /* border-bottom: #ff0475  ; */
 }
 .midopts1{
@@ -668,8 +678,9 @@
     height: 90%;
     display: flex;
     flex-direction: column;
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 20px;
+    box-shadow: 10px -10px 10px rgba(245, 245, 245, 0.918);
 }
 .numberr{
     width: 13%;
@@ -1018,6 +1029,58 @@
         width: 100%;
         height: 10%;
     }
+    .navbar{
+        margin: 0;
+        width: 100%;
+        padding-left: 20px;
+        border-bottom: #241e35 1px solid;
+    }
+    .navopts{
+        /* float: right; */
+        display: inline-block;
+        position: fixed;
+        width: 100%;
+        height: 500px;
+        top: 90px;
+        left: -100%;
+        color: #241e35;
+        font-size: 20px;
+        background-color: red;
+        transition: all .5s;
+    }
+    .opts1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height:120px;
+        align-items: start;
+        /* gap: 50px; */
+        padding-left: 20px;
+        /* background-color: yellow; */
+    }
+    .opts2{
+        display: flex;
+        padding-left: 20px;
+        flex-direction: column;
+        width: 100%;
+        align-items: start;
+        height: 380px;
+        /* background-color: green; */
+    }
+    .opts2>button{
+        height: 30px;
+        width: 100;
+        background-color: transparent;
+        text-align: left;
+        font-size: 20px;
+    }
+    .checkbut{
+        display: block;
+        margin-right: 40px;
+    }
+    #check:checked ~ .navopts{
+        left: 0;
+    }
     .one{
         width: 100%;
         height: 90%;
@@ -1152,6 +1215,9 @@
         height: 45%;
         gap: 10px;
         padding-top: 0;
+    }
+    .text5>h2{
+        font-size: 30px;
     }
     .text5>button{
         width: 40%;
